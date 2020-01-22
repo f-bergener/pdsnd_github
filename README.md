@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 1/14/2020 and the README.md file was created on 1/21/2020
 
-### Project Title
-Replace the Project Title
+### Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project takes input from the user and returns statsitics on bikeshare usage in three major U.S. cities
 
 ### Files used
-Include the files used
+new_york_city.csv, chicago.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I used the resources that are provided on Udacity to complete this project
 
