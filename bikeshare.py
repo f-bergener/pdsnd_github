@@ -43,7 +43,8 @@ def get_filters():
         elif date_filter == 'month':
             print('Which month? January, February, March, April, May, or June?')
             month = input().lower()
-            if month != 'january' and month != 'february' and month != 'march' and month != 'april' and month != 'may' \
+            if month != 'january' and month != 'february' and \
+            month != 'march' and month != 'april' and month != 'may' \
                     and month != 'june':
                 print('Please enter a valid month.')
                 continue
