@@ -67,8 +67,8 @@ def get_filters():
         elif date_filter == 'both':
             print('Which month? January, February, March, April, May, or June?')
             month = input().lower()
-            if month != 'january' and month != 'february' and month != 'march' and month != 'april' and month != 'may' \
-                    and month != 'june':
+            if month != 'january' and month != 'february' \
+                    and month != 'march' and month != 'april' and month != 'may'and month != 'june':
                 print('Please enter a valid month.')
                 continue
             else:
@@ -79,7 +79,8 @@ def get_filters():
                     except:
                         print('Please enter a valid day.')
                         continue
-                    if day == 'sunday' or day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday':
+                    if day == 'sunday' or day == 'monday' or \
+                            day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday':
                         print('Thank You')
                         break
                     else:
