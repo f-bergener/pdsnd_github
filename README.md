@@ -7,7 +7,7 @@ This project was created on 1/14/2020 and the README.md file was created on 1/21
 This project takes input from the user and returns statsitics on bikeshare usage in three major U.S. cities
 
 ### Files used
-new_york_city.csv, chicago.csv, washington.csv
+Three csv files for each city including, new_york_city.csv, chicago.csv, washington.csv
 
 ### Credits
 I used the resources that are provided on Udacity to complete this project
