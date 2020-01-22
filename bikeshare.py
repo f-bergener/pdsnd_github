@@ -79,7 +79,8 @@ def get_filters():
                     except:
                         print('Please enter a valid day.')
                         continue
-                    if day == 'sunday' or day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday':
+                    if day == 'sunday' or day == 'monday' or \
+                            day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday':
                         print('Thank You')
                         break
                     else:
